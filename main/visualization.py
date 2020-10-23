@@ -1,3 +1,5 @@
+#!/usr/bin/python3.8
+
 # encoding: utf-8
 """
 This module provides access to binary tree visualization
@@ -181,6 +183,6 @@ if __name__ == '__main__':
     binary_tree.right.left.left = temp
     temp = TreeNode(13)
     binary_tree.right.left.right = temp
-    
+
     draw(binary_tree, 4)
 '''
